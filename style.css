@@ -1,91 +1,88 @@
 .banner__vinpearl{
-        width: 790px;
-        height: 180px;
+    width: 780px;
+    height: 180px;
 }
 .banner__content {
     display: flex;
     flex-direction: row;
+    width: 780px;
+    height: 180px;
 }
 
 .banner__content--left {
-    width: 320px;
-    height: 100%;
+width: 320px;
+height: 180;
 }
 
 .banner__content--right{
-    width: 470px;
-    height: 180px;
-    background: url(VP.png), #FFFFFF;
-    padding-left: 18px;
+width: 442px;
+height: 180px;
+background: #F1F1F1;
+padding-left: 18px;
 }
 
 .content__title {
-    width: 430px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    display: flex;
-    color: #454545;
-    mix-blend-mode: normal;
+width: 430px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+color: #454545;
+mix-blend-mode: normal;
 }
 
 .content__link a {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #A5A5A5; 
-    padding: 5px 0px 0px 0px;
-    text-decoration: none;
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #A5A5A5; 
+text-decoration: none;
 }
 
 .content__detail {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #757575;
-    width: 430px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #757575;
+width: 430px;
 }
 
 .content__icon {
-    width: 430px;
-    height: 34px;
-    display: flex;
-    padding: 25px 17px 0px 0px;
+width: 422px;
+height: 34px;
+display: flex;
+padding: 25px 17px 0px 0px;
 }
 .content__icon--left{
-    float: left;
-    order: 1;
+float: left;
+order: 1;
 }
 
 .content__icon--right{
-    order: 2;
-    margin-left: auto;
+order: 2;
+margin-left: auto;
 }
 
 .content__icon--righttop{
-    float: right;
-    width: 54px;
-    height: 17px;
-    padding: 0px 23px 0px 0px;
+width: 54px;
+height: 17px;
+display: flex;
+margin-left: 388px;
 }
 .icon--righttop_main {
-    float: left;
-    background: url(adxlogo-2.png);
+float: left;
+background: url(adxlogo-2.png);
 }
 
 .icon--righttop_add {
-  float: left;
+float: left;
 }
-  
-
-
